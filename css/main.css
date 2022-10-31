@@ -1,0 +1,1757 @@
+.disabled {
+    opacity: 0;
+}
+
+.active {
+    font-weight: bold
+}
+
+.spinner-border {
+        display: block;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        z-index: 1031; /* High z-index so it is on top of the page */
+        top: 50%;
+        right: 50%; /* or: left: 50%; */
+}
+
+table {
+    min-width: 100%px !important;
+}
+
+.save-btn {
+    padding: 20px;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    z-index: 3;
+}
+
+select {
+    width: 40px !important;
+}
+
+.d-md-none, .d-lg-none {
+    display: none;
+}
+
+.flag-icon-background {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat
+}
+
+.flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: .9em
+}
+
+.flag-icon:before {
+    content: "\00a0"
+}
+
+.flag-icon.flag-icon-squared {
+    width: .9em
+}
+
+.flag-icon-AND {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/AND.svg)
+}
+
+.flag-icon-AND.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/AND.svg)
+}
+
+.flag-icon-UAE {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/UAE.svg)
+}
+
+.flag-icon-UAE.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/UAE.svg)
+}
+
+.flag-icon-AFG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/AFG.svg)
+}
+
+.flag-icon-AFG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/AFG.svg)
+}
+
+.flag-icon-ATG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ATG.svg)
+}
+
+.flag-icon-ATG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ATG.svg)
+}
+
+.flag-icon-AIA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/AIA.svg)
+}
+
+.flag-icon-AIA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/AIA.svg)
+}
+
+.flag-icon-ALB {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ALB.svg)
+}
+
+.flag-icon-ALB.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ALB.svg)
+}
+
+.flag-icon-ARM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ARM.svg)
+}
+
+.flag-icon-ARM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ARM.svg)
+}
+
+.flag-icon-ANG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ANG.svg)
+}
+
+.flag-icon-ANG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ANG.svg)
+}
+
+.flag-icon-ARG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ARG.svg)
+}
+
+.flag-icon-ARG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ARG.svg)
+}
+
+.flag-icon-ASA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ASA.svg)
+}
+
+.flag-icon-ASA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ASA.svg)
+}
+
+.flag-icon-AUT {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/AUT.svg)
+}
+
+.flag-icon-AUT.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/AUT.svg)
+}
+
+.flag-icon-AUS {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/AUS.svg)
+}
+
+.flag-icon-AUS.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/AUS.svg)
+}
+
+.flag-icon-ARU {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ARU.svg)
+}
+
+.flag-icon-ARU.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ARU.svg)
+}
+
+.flag-icon-AZE {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/AZE.svg)
+}
+
+.flag-icon-AZE.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/AZE.svg)
+}
+
+.flag-icon-BIH {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BIH.svg)
+}
+
+.flag-icon-BIH.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BIH.svg)
+}
+
+.flag-icon-BRB {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BRB.svg)
+}
+
+.flag-icon-BRB.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BRB.svg)
+}
+
+.flag-icon-BAN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BAN.svg)
+}
+
+.flag-icon-BAN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BAN.svg)
+}
+
+.flag-icon-BEL {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BEL.svg)
+}
+
+.flag-icon-BEL.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BEL.svg)
+}
+
+.flag-icon-BFA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BFA.svg)
+}
+
+.flag-icon-BFA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BFA.svg)
+}
+
+.flag-icon-BUL {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BUL.svg)
+}
+
+.flag-icon-BUL.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BUL.svg)
+}
+
+.flag-icon-BHR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BHR.svg)
+}
+
+.flag-icon-BHR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BHR.svg)
+}
+
+.flag-icon-BDI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BDI.svg)
+}
+
+.flag-icon-BDI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BDI.svg)
+}
+
+.flag-icon-BEN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BEN.svg)
+}
+
+.flag-icon-BEN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BEN.svg)
+}
+
+.flag-icon-BER {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BER.svg)
+}
+
+.flag-icon-BER.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BER.svg)
+}
+
+.flag-icon-BRU {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BRU.svg)
+}
+
+.flag-icon-BRU.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BRU.svg)
+}
+
+.flag-icon-BOL {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BOL.svg)
+}
+
+.flag-icon-BOL.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BOL.svg)
+}
+
+.flag-icon-BRA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BRA.svg)
+}
+
+.flag-icon-BRA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BRA.svg)
+}
+
+.flag-icon-BAH {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BAH.svg)
+}
+
+.flag-icon-BAH.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BAH.svg)
+}
+
+.flag-icon-BHU {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BHU.svg)
+}
+
+.flag-icon-BHU.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BHU.svg)
+}
+
+.flag-icon-BOT {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BOT.svg)
+}
+
+.flag-icon-BOT.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BOT.svg)
+}
+
+.flag-icon-BLR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BLR.svg)
+}
+
+.flag-icon-BLR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BLR.svg)
+}
+
+.flag-icon-BLZ {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/BLZ.svg)
+}
+
+.flag-icon-BLZ.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/BLZ.svg)
+}
+
+.flag-icon-CAN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CAN.svg)
+}
+
+.flag-icon-CAN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CAN.svg)
+}
+
+.flag-icon-COD {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/COD.svg)
+}
+
+.flag-icon-COD.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/COD.svg)
+}
+
+.flag-icon-CTA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CTA.svg)
+}
+
+.flag-icon-CTA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CTA.svg)
+}
+
+.flag-icon-CGO {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CGO.svg)
+}
+
+.flag-icon-CGO.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CGO.svg)
+}
+
+.flag-icon-SUI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SUI.svg)
+}
+
+.flag-icon-SUI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SUI.svg)
+}
+
+.flag-icon-CIV {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CIV.svg)
+}
+
+.flag-icon-CIV.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CIV.svg)
+}
+
+.flag-icon-COK {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/COK.svg)
+}
+
+.flag-icon-COK.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/COK.svg)
+}
+
+.flag-icon-CHI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CHI.svg)
+}
+
+.flag-icon-CHI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CHI.svg)
+}
+
+.flag-icon-CMR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CMR.svg)
+}
+
+.flag-icon-CMR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CMR.svg)
+}
+
+.flag-icon-CHN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CHN.svg)
+}
+
+.flag-icon-CHN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CHN.svg)
+}
+
+.flag-icon-COL {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/COL.svg)
+}
+
+.flag-icon-COL.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/COL.svg)
+}
+
+.flag-icon-CRC {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CRC.svg)
+}
+
+.flag-icon-CRC.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CRC.svg)
+}
+
+.flag-icon-CUB {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CUB.svg)
+}
+
+.flag-icon-CUB.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CUB.svg)
+}
+
+.flag-icon-CPV {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CPV.svg)
+}
+
+.flag-icon-CPV.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CPV.svg)
+}
+
+.flag-icon-CUW {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CUW.svg)
+}
+
+.flag-icon-CUW.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CUW.svg)
+}
+
+.flag-icon-CYP {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CYP.svg)
+}
+
+.flag-icon-CYP.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CYP.svg)
+}
+
+.flag-icon-CZE {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CZE.svg)
+}
+
+.flag-icon-CZE.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CZE.svg)
+}
+
+.flag-icon-GER {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GER.svg)
+}
+
+.flag-icon-GER.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GER.svg)
+}
+
+.flag-icon-DJI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/DJI.svg)
+}
+
+.flag-icon-DJI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/DJI.svg)
+}
+
+.flag-icon-DEN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/DEN.svg)
+}
+
+.flag-icon-DEN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/DEN.svg)
+}
+
+.flag-icon-DMA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/DMA.svg)
+}
+
+.flag-icon-DMA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/DMA.svg)
+}
+
+.flag-icon-DOM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/DOM.svg)
+}
+
+.flag-icon-DOM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/DOM.svg)
+}
+
+.flag-icon-ALG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ALG.svg)
+}
+
+.flag-icon-ALG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ALG.svg)
+}
+
+.flag-icon-ECU {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ECU.svg)
+}
+
+.flag-icon-ECU.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ECU.svg)
+}
+
+.flag-icon-EST {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/EST.svg)
+}
+
+.flag-icon-EST.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/EST.svg)
+}
+
+.flag-icon-EGY {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/EGY.svg)
+}
+
+.flag-icon-EGY.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/EGY.svg)
+}
+
+.flag-icon-ERI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ERI.svg)
+}
+
+.flag-icon-ERI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ERI.svg)
+}
+
+.flag-icon-ESP {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ESP.svg)
+}
+
+.flag-icon-ESP.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ESP.svg)
+}
+
+.flag-icon-ETH {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ETH.svg)
+}
+
+.flag-icon-ETH.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ETH.svg)
+}
+
+.flag-icon-FIN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/FIN.svg)
+}
+
+.flag-icon-FIN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/FIN.svg)
+}
+
+.flag-icon-FIJ {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/FIJ.svg)
+}
+
+.flag-icon-FIJ.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/FIJ.svg)
+}
+
+.flag-icon-FRO {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/FRO.svg)
+}
+
+.flag-icon-FRO.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/FRO.svg)
+}
+
+.flag-icon-FRA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/FRA.svg)
+}
+
+.flag-icon-FRA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/FRA.svg)
+}
+
+.flag-icon-GAB {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GAB.svg)
+}
+
+.flag-icon-GAB.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GAB.svg)
+}
+
+.flag-icon-GRN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GRN.svg)
+}
+
+.flag-icon-GRN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GRN.svg)
+}
+
+.flag-icon-GEO {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GEO.svg)
+}
+
+.flag-icon-GEO.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GEO.svg)
+}
+
+.flag-icon-GHA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GHA.svg)
+}
+
+.flag-icon-GHA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GHA.svg)
+}
+
+.flag-icon-GIB {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GIB.svg)
+}
+
+.flag-icon-GIB.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GIB.svg)
+}
+
+.flag-icon-GAM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GAM.svg)
+}
+
+.flag-icon-GAM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GAM.svg)
+}
+
+.flag-icon-GUI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GUI.svg)
+}
+
+.flag-icon-GUI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GUI.svg)
+}
+
+.flag-icon-EQG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/EQG.svg)
+}
+
+.flag-icon-EQG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/EQG.svg)
+}
+
+.flag-icon-GRE {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GRE.svg)
+}
+
+.flag-icon-GRE.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GRE.svg)
+}
+
+.flag-icon-GUA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GUA.svg)
+}
+
+.flag-icon-GUA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GUA.svg)
+}
+
+.flag-icon-GUM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GUM.svg)
+}
+
+.flag-icon-GUM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GUM.svg)
+}
+
+.flag-icon-GNB {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GNB.svg)
+}
+
+.flag-icon-GNB.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GNB.svg)
+}
+
+.flag-icon-GUY {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/GUY.svg)
+}
+
+.flag-icon-GUY.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/GUY.svg)
+}
+
+.flag-icon-HKG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/HKG.svg)
+}
+
+.flag-icon-HKG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/HKG.svg)
+}
+
+.flag-icon-HON {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/HON.svg)
+}
+
+.flag-icon-HON.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/HON.svg)
+}
+
+.flag-icon-CRO {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CRO.svg)
+}
+
+.flag-icon-CRO.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CRO.svg)
+}
+
+.flag-icon-HAI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/HAI.svg)
+}
+
+.flag-icon-HAI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/HAI.svg)
+}
+
+.flag-icon-HUN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/HUN.svg)
+}
+
+.flag-icon-HUN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/HUN.svg)
+}
+
+.flag-icon-IDN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/IDN.svg)
+}
+
+.flag-icon-IDN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/IDN.svg)
+}
+
+.flag-icon-IRL {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/IRL.svg)
+}
+
+.flag-icon-IRL.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/IRL.svg)
+}
+
+.flag-icon-ISR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ISR.svg)
+}
+
+.flag-icon-ISR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ISR.svg)
+}
+
+.flag-icon-IND {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/IND.svg)
+}
+
+.flag-icon-IND.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/IND.svg)
+}
+
+.flag-icon-IRQ {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/IRQ.svg)
+}
+
+.flag-icon-IRQ.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/IRQ.svg)
+}
+
+.flag-icon-IRN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/IRN.svg)
+}
+
+.flag-icon-IRN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/IRN.svg)
+}
+
+.flag-icon-ISL {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ISL.svg)
+}
+
+.flag-icon-ISL.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ISL.svg)
+}
+
+.flag-icon-ITA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ITA.svg)
+}
+
+.flag-icon-ITA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ITA.svg)
+}
+
+.flag-icon-JAM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/JAM.svg)
+}
+
+.flag-icon-JAM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/JAM.svg)
+}
+
+.flag-icon-JOR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/JOR.svg)
+}
+
+.flag-icon-JOR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/JOR.svg)
+}
+
+.flag-icon-JPN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/JPN.svg)
+}
+
+.flag-icon-JPN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/JPN.svg)
+}
+
+.flag-icon-KEN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/KEN.svg)
+}
+
+.flag-icon-KEN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/KEN.svg)
+}
+
+.flag-icon-KGZ {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/KGZ.svg)
+}
+
+.flag-icon-KGZ.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/KGZ.svg)
+}
+
+.flag-icon-CAM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CAM.svg)
+}
+
+.flag-icon-CAM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CAM.svg)
+}
+
+.flag-icon-COM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/COM.svg)
+}
+
+.flag-icon-COM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/COM.svg)
+}
+
+.flag-icon-SKN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SKN.svg)
+}
+
+.flag-icon-SKN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SKN.svg)
+}
+
+.flag-icon-PRK {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/PRK.svg)
+}
+
+.flag-icon-PRK.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/PRK.svg)
+}
+
+.flag-icon-KOR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/KOR.svg)
+}
+
+.flag-icon-KOR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/KOR.svg)
+}
+
+.flag-icon-KUW {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/KUW.svg)
+}
+
+.flag-icon-KUW.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/KUW.svg)
+}
+
+.flag-icon-CAY {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CAY.svg)
+}
+
+.flag-icon-CAY.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CAY.svg)
+}
+
+.flag-icon-KAZ {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/KAZ.svg)
+}
+
+.flag-icon-KAZ.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/KAZ.svg)
+}
+
+.flag-icon-LAO {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/LAO.svg)
+}
+
+.flag-icon-LAO.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/LAO.svg)
+}
+
+.flag-icon-LIB {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/LIB.svg)
+}
+
+.flag-icon-LIB.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/LIB.svg)
+}
+
+.flag-icon-LCA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/LCA.svg)
+}
+
+.flag-icon-LCA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/LCA.svg)
+}
+
+.flag-icon-LIE {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/LIE.svg)
+}
+
+.flag-icon-LIE.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/LIE.svg)
+}
+
+.flag-icon-SRI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SRI.svg)
+}
+
+.flag-icon-SRI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SRI.svg)
+}
+
+.flag-icon-LBR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/LBR.svg)
+}
+
+.flag-icon-LBR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/LBR.svg)
+}
+
+.flag-icon-LES {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/LES.svg)
+}
+
+.flag-icon-LES.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/LES.svg)
+}
+
+.flag-icon-LTU {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/LTU.svg)
+}
+
+.flag-icon-LTU.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/LTU.svg)
+}
+
+.flag-icon-LUX {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/LUX.svg)
+}
+
+.flag-icon-LUX.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/LUX.svg)
+}
+
+.flag-icon-LVA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/LVA.svg)
+}
+
+.flag-icon-LVA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/LVA.svg)
+}
+
+.flag-icon-LBY {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/LBY.svg)
+}
+
+.flag-icon-LBY.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/LBY.svg)
+}
+
+.flag-icon-MAR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MAR.svg)
+}
+
+.flag-icon-MAR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MAR.svg)
+}
+
+.flag-icon-MDA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MDA.svg)
+}
+
+.flag-icon-MDA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MDA.svg)
+}
+
+.flag-icon-MNE {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MNE.svg)
+}
+
+.flag-icon-MNE.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MNE.svg)
+}
+
+.flag-icon-MAD {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MAD.svg)
+}
+
+.flag-icon-MAD.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MAD.svg)
+}
+
+.flag-icon-MKD {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MKD.svg)
+}
+
+.flag-icon-MKD.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MKD.svg)
+}
+
+.flag-icon-MLI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MLI.svg)
+}
+
+.flag-icon-MLI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MLI.svg)
+}
+
+.flag-icon-MYA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MYA.svg)
+}
+
+.flag-icon-MYA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MYA.svg)
+}
+
+.flag-icon-MNG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MNG.svg)
+}
+
+.flag-icon-MNG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MNG.svg)
+}
+
+.flag-icon-MAC {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MAC.svg)
+}
+
+.flag-icon-MAC.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MAC.svg)
+}
+
+.flag-icon-MTN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MTN.svg)
+}
+
+.flag-icon-MTN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MTN.svg)
+}
+
+.flag-icon-MSR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MSR.svg)
+}
+
+.flag-icon-MSR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MSR.svg)
+}
+
+.flag-icon-MLT {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MLT.svg)
+}
+
+.flag-icon-MLT.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MLT.svg)
+}
+
+.flag-icon-MRI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MRI.svg)
+}
+
+.flag-icon-MRI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MRI.svg)
+}
+
+.flag-icon-MDV {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MDV.svg)
+}
+
+.flag-icon-MDV.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MDV.svg)
+}
+
+.flag-icon-MWI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MWI.svg)
+}
+
+.flag-icon-MWI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MWI.svg)
+}
+
+.flag-icon-MEX {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MEX.svg)
+}
+
+.flag-icon-MEX.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MEX.svg)
+}
+
+.flag-icon-MAS {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MAS.svg)
+}
+
+.flag-icon-MAS.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MAS.svg)
+}
+
+.flag-icon-MOZ {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/MOZ.svg)
+}
+
+.flag-icon-MOZ.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/MOZ.svg)
+}
+
+.flag-icon-NAM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/NAM.svg)
+}
+
+.flag-icon-NAM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/NAM.svg)
+}
+
+.flag-icon-NCL {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/NCL.svg)
+}
+
+.flag-icon-NCL.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/NCL.svg)
+}
+
+.flag-icon-NIG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/NIG.svg)
+}
+
+.flag-icon-NIG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/NIG.svg)
+}
+
+.flag-icon-NGA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/NGA.svg)
+}
+
+.flag-icon-NGA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/NGA.svg)
+}
+
+.flag-icon-NCA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/NCA.svg)
+}
+
+.flag-icon-NCA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/NCA.svg)
+}
+
+.flag-icon-NED {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/NED.svg)
+}
+
+.flag-icon-NED.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/NED.svg)
+}
+
+.flag-icon-NOR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/NOR.svg)
+}
+
+.flag-icon-NOR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/NOR.svg)
+}
+
+.flag-icon-NEP {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/NEP.svg)
+}
+
+.flag-icon-NEP.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/NEP.svg)
+}
+
+.flag-icon-NZL {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/NZL.svg)
+}
+
+.flag-icon-NZL.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/NZL.svg)
+}
+
+.flag-icon-OMA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/OMA.svg)
+}
+
+.flag-icon-OMA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/OMA.svg)
+}
+
+.flag-icon-PAN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/PAN.svg)
+}
+
+.flag-icon-PAN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/PAN.svg)
+}
+
+.flag-icon-PER {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/PER.svg)
+}
+
+.flag-icon-PER.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/PER.svg)
+}
+
+.flag-icon-TAH {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TAH.svg)
+}
+
+.flag-icon-TAH.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TAH.svg)
+}
+
+.flag-icon-PNG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/PNG.svg)
+}
+
+.flag-icon-PNG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/PNG.svg)
+}
+
+.flag-icon-PHI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/PHI.svg)
+}
+
+.flag-icon-PHI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/PHI.svg)
+}
+
+.flag-icon-PAK {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/PAK.svg)
+}
+
+.flag-icon-PAK.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/PAK.svg)
+}
+
+.flag-icon-POL {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/POL.svg)
+}
+
+.flag-icon-POL.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/POL.svg)
+}
+
+.flag-icon-PUR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/PUR.svg)
+}
+
+.flag-icon-PUR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/PUR.svg)
+}
+
+.flag-icon-PLE {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/PLE.svg)
+}
+
+.flag-icon-PLE.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/PLE.svg)
+}
+
+.flag-icon-POR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/POR.svg)
+}
+
+.flag-icon-POR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/POR.svg)
+}
+
+.flag-icon-PAR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/PAR.svg)
+}
+
+.flag-icon-PAR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/PAR.svg)
+}
+
+.flag-icon-QAT {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/QAT.svg)
+}
+
+.flag-icon-QAT.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/QAT.svg)
+}
+
+.flag-icon-ROU {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ROU.svg)
+}
+
+.flag-icon-ROU.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ROU.svg)
+}
+
+.flag-icon-SRB {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SRB.svg)
+}
+
+.flag-icon-SRB.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SRB.svg)
+}
+
+.flag-icon-RUS {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/RUS.svg)
+}
+
+.flag-icon-RUS.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/RUS.svg)
+}
+
+.flag-icon-RWA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/RWA.svg)
+}
+
+.flag-icon-RWA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/RWA.svg)
+}
+
+.flag-icon-KSA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/KSA.svg)
+}
+
+.flag-icon-KSA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/KSA.svg)
+}
+
+.flag-icon-SOL {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SOL.svg)
+}
+
+.flag-icon-SOL.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SOL.svg)
+}
+
+.flag-icon-SEY {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SEY.svg)
+}
+
+.flag-icon-SEY.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SEY.svg)
+}
+
+.flag-icon-SDN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SDN.svg)
+}
+
+.flag-icon-SDN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SDN.svg)
+}
+
+.flag-icon-SWE {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SWE.svg)
+}
+
+.flag-icon-SWE.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SWE.svg)
+}
+
+.flag-icon-SIN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SIN.svg)
+}
+
+.flag-icon-SIN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SIN.svg)
+}
+
+.flag-icon-SVN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SVN.svg)
+}
+
+.flag-icon-SVN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SVN.svg)
+}
+
+.flag-icon-SVK {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SVK.svg)
+}
+
+.flag-icon-SVK.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SVK.svg)
+}
+
+.flag-icon-SLE {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SLE.svg)
+}
+
+.flag-icon-SLE.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SLE.svg)
+}
+
+.flag-icon-SMR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SMR.svg)
+}
+
+.flag-icon-SMR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SMR.svg)
+}
+
+.flag-icon-SEN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SEN.svg)
+}
+
+.flag-icon-SEN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SEN.svg)
+}
+
+.flag-icon-SOM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SOM.svg)
+}
+
+.flag-icon-SOM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SOM.svg)
+}
+
+.flag-icon-SUR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SUR.svg)
+}
+
+.flag-icon-SUR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SUR.svg)
+}
+
+.flag-icon-SSD {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SSD.svg)
+}
+
+.flag-icon-SSD.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SSD.svg)
+}
+
+.flag-icon-STP {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/STP.svg)
+}
+
+.flag-icon-STP.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/STP.svg)
+}
+
+.flag-icon-SLV {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SLV.svg)
+}
+
+.flag-icon-SLV.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SLV.svg)
+}
+
+.flag-icon-SYR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SYR.svg)
+}
+
+.flag-icon-SYR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SYR.svg)
+}
+
+.flag-icon-SWZ {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SWZ.svg)
+}
+
+.flag-icon-SWZ.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SWZ.svg)
+}
+
+.flag-icon-TCA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TCA.svg)
+}
+
+.flag-icon-TCA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TCA.svg)
+}
+
+.flag-icon-CHA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/CHA.svg)
+}
+
+.flag-icon-CHA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/CHA.svg)
+}
+
+.flag-icon-TOG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TOG.svg)
+}
+
+.flag-icon-TOG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TOG.svg)
+}
+
+.flag-icon-THA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/THA.svg)
+}
+
+.flag-icon-THA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/THA.svg)
+}
+
+.flag-icon-TJK {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TJK.svg)
+}
+
+.flag-icon-TJK.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TJK.svg)
+}
+
+.flag-icon-TLS {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TLS.svg)
+}
+
+.flag-icon-TLS.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TLS.svg)
+}
+
+.flag-icon-TKM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TKM.svg)
+}
+
+.flag-icon-TKM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TKM.svg)
+}
+
+.flag-icon-TUN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TUN.svg)
+}
+
+.flag-icon-TUN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TUN.svg)
+}
+
+.flag-icon-TGA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TGA.svg)
+}
+
+.flag-icon-TGA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TGA.svg)
+}
+
+.flag-icon-TUR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TUR.svg)
+}
+
+.flag-icon-TUR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TUR.svg)
+}
+
+.flag-icon-TRI {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TRI.svg)
+}
+
+.flag-icon-TRI.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TRI.svg)
+}
+
+.flag-icon-TAN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TAN.svg)
+}
+
+.flag-icon-TAN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TAN.svg)
+}
+
+.flag-icon-UKR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/UKR.svg)
+}
+
+.flag-icon-UKR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/UKR.svg)
+}
+
+.flag-icon-UGA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/UGA.svg)
+}
+
+.flag-icon-UGA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/UGA.svg)
+}
+
+.flag-icon-USA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/USA.svg)
+}
+
+.flag-icon-USA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/USA.svg)
+}
+
+.flag-icon-URU {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/URU.svg)
+}
+
+.flag-icon-URU.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/URU.svg)
+}
+
+.flag-icon-UZB {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/UZB.svg)
+}
+
+.flag-icon-UZB.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/UZB.svg)
+}
+
+.flag-icon-VIN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/VIN.svg)
+}
+
+.flag-icon-VIN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/VIN.svg)
+}
+
+.flag-icon-VEN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/VEN.svg)
+}
+
+.flag-icon-VEN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/VEN.svg)
+}
+
+.flag-icon-VGB {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/VGB.svg)
+}
+
+.flag-icon-VGB.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/VGB.svg)
+}
+
+.flag-icon-VIR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/VIR.svg)
+}
+
+.flag-icon-VIR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/VIR.svg)
+}
+
+.flag-icon-VIE {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/VIE.svg)
+}
+
+.flag-icon-VIE.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/VIE.svg)
+}
+
+.flag-icon-VAN {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/VAN.svg)
+}
+
+.flag-icon-VAN.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/VAN.svg)
+}
+
+.flag-icon-SAM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SAM.svg)
+}
+
+.flag-icon-SAM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SAM.svg)
+}
+
+.flag-icon-YEM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/YEM.svg)
+}
+
+.flag-icon-YEM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/YEM.svg)
+}
+
+.flag-icon-RSA {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/RSA.svg)
+}
+
+.flag-icon-RSA.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/RSA.svg)
+}
+
+.flag-icon-ZAM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ZAM.svg)
+}
+
+.flag-icon-ZAM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ZAM.svg)
+}
+
+.flag-icon-ZIM {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ZIM.svg)
+}
+
+.flag-icon-ZIM.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ZIM.svg)
+}
+
+.flag-icon-ENG {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ENG.svg)
+}
+
+.flag-icon-ENG.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ENG.svg)
+}
+
+.flag-icon-NIR {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/NIR.svg)
+}
+
+.flag-icon-NIR.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/NIR.svg)
+}
+
+.flag-icon-SCO {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/SCO.svg)
+}
+
+.flag-icon-SCO.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/SCO.svg)
+}
+
+.flag-icon-WAL {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/WAL.svg)
+}
+
+.flag-icon-WAL.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/WAL.svg)
+}
+
+.flag-icon-TPE {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/TPE.svg)
+}
+
+.flag-icon-TPE.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/TPE.svg)
+}
+
+.flag-icon-KVX {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/KVX.svg)
+}
+
+.flag-icon-KVX.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/KVX.svg)
+}
+
+.flag-icon-ZZZ {
+    background-image: url(https://assets.gokoppa.com/flags/4x3/ZZZ.svg)
+}
+
+.flag-icon-ZZZ.flag-icon-squared {
+    background-image: url(https://assets.gokoppa.com/flags/1x1/ZZZ.svg)
+}

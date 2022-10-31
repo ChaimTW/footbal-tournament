@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup 2022</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">World Cup 2022</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="matches.html">Matches <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="groups.html">Groups</a>
+          </li> -->
+            <li class="nav-item active">
+              <a class="nav-link" href="leaderboards.html">Leaderboards</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Groups</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Results</a>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+      <div class="spinner-border disabled" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    <main class="py-4">
+        <script type="text/javascript" src="/js/vendor/moment.min.js"></script>
+        <script type="text/javascript" src="/js/vendor/moment-timezone-with-data.min.js"></script>
+        <script type="text/javascript">
+            function toTimeZoneShort(time, zone) {
+                var time = moment.tz(time, zone);
+                var timezoned = time.clone().tz(moment.tz.guess());
+                return timezoned.format('DD-M HH');
+            }
+            function toTimeZoneLong(time, zone) {
+                var time = moment.tz(time, zone);
+                var timezoned = time.clone().tz(moment.tz.guess());
+                return timezoned.format('DD-MM-YY, HH:mm');
+            }
+        </script>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Leaderboards</h1>
+                    <hr>
+                </div>
+            </div>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Rank</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Score</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Chaim123</td>
+                    <td>Chaim Ter Wee</td>
+                    <td>22</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Buse123</td>
+                    <td>Buse Görmez</td>
+                    <td>20</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Bror123</td>
+                    <td>Bror Krogsrud</td>
+                    <td>18</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </main>
+    <script src="js/leaderboardUtils.js"></script>
+</body>
+
+</html>
